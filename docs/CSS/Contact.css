@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+/*  Header main page */
+
+.header__container-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #02356a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: aliceblue;
+   cursor: pointer;
+   transition: 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
+.nav-links a{
+    font-size: 1rem;
+    color: aliceblue;
+    margin-left: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;   
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid;
+}
+
+/* Section Contact Me */
+
+.contact__section-me {
+    min-height: 0;
+    background-color: aliceblue;
+    padding: 130px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #02356a;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: #02356a;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 1rem;
+    border: 2px solid #02356a;
+    color: #02356a;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 1rem;
+    background-color: #02356a;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(0.9);
+}
+
+/* Contact Information Div */
+
+.contact-info {
+    text-align: left;
+    margin-left: 55px;
+
+}
+
+.contact-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #02356a;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #1e1e1e;
+}
+
+.contact-info a {
+    margin-bottom: 10px;
+    color: #1e1e1e;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-info a:hover {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #02356a;
+    color: #02356a;
+}
+
+.contact-info i {
+    color: #02356a;
+}
+
+/* Section Footer & Social links*/
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: #02356a;
+}
+
+.footer .socials-link {
+    text-align: center;
+    padding-bottom: 25px;
+    color: aliceblue;
+}
+
+.footer .socials-link a {
+    font-size: 25px;
+    color: aliceblue;
+    border: 2px solid;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+.footer .socials-link a:hover {
+    transform: scale(1.2)translateY(-10px);
+}
+
+.footer .copyright {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 1rem;
+    color: aliceblue;
+}
